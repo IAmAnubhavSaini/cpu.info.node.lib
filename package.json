@@ -1,0 +1,33 @@
+{
+  "name": "@f0c1s/cpu.info.node.lib",
+  "version": "2021.3.23",
+  "description": "A library to get CPU info in node | used in it's .sh version",
+  "main": "src/package.js",
+  "scripts": {
+    "test": "node_modules/.bin/jasmine",
+    "build": "node_modules/.bin/tsc --project tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IAmAnubhavSaini/cpu.info.node.lib.git"
+  },
+  "keywords": [
+    "cpu-info"
+  ],
+  "author": "Anubhav <iamanubhavsaini@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IAmAnubhavSaini/cpu.info.node.lib/issues"
+  },
+  "homepage": "https://github.com/IAmAnubhavSaini/cpu.info.node.lib#readme",
+  "devDependencies": {
+    "@types/jasmine": "^3.6.7",
+    "@types/node": "^14.14.35",
+    "jasmine": "^3.7.0",
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "@f0c1s/color-green": "^0.0.1",
+    "@f0c1s/color-red": "^0.0.1"
+  }
+}
